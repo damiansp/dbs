@@ -1,0 +1,6 @@
+use dbname
+db.tablename.find() # SELECT * FROM tablename
+
+
+
+mongoimport -db dbname -c collectionname --file input-file.json
